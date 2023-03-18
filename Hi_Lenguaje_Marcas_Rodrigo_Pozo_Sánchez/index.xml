@@ -1,0 +1,2880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Comenta el resto de ejercicios para que puedas ver los demas es decir si quieres ver el "ejercicio 3" comenta el 1, 2 y 4-->
+<?xml-stylesheet type="text/xsl" href="Ejercicio 1.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio 2.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio 3.xsl"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio 4.xsl"?>
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+<tienda>
+  <anos> 
+    <ano2021 id="2021">
+      <trimestres>
+        <trimestre1 id="1">
+          <pedidos>
+            <!--1-->
+            <pedido id="1">
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>carlos.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>001</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Teclado</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>100</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Raton</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>30</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--2-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>002</numero_pedido>
+                <fecha_compra>2021-01-09</fecha_compra>
+                <fecha_entrega>2021-01-09</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>lapices para pintar</nombre>
+                    <referencia>Chan-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--3-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>003</numero_pedido>
+                <fecha_compra>2021-01-11</fecha_compra>
+                <fecha_entrega>2021-01-15</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>lapices para pintar</nombre>
+                    <referencia>Chan-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Acuarelas</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--4-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>004</numero_pedido>
+                <fecha_compra>2021-01-27</fecha_compra>
+                <fecha_entrega>2021-01-30</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Calcetines</nombre>
+                    <referencia>Cal-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>5</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--5-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>005</numero_pedido>
+                <fecha_compra>2021-01-27</fecha_compra>
+                <fecha_entrega>2021-01-30</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalones cortos</nombre>
+                    <referencia>Pan-02</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--6-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>006</numero_pedido>
+                <fecha_compra>2021-02-20</fecha_compra>
+                <fecha_entrega>2021-02-25</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Sudadera</nombre>
+                    <referencia>Sud-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--7-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>007</numero_pedido>
+                <fecha_compra>2021-10-15</fecha_compra>
+                <fecha_entrega>2021-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--8-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>008</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--9-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>009</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--10-->
+            <pedido>
+              <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>González</apellidos>
+                <telefono>555-123-4567</telefono>
+                <direccion>
+                  <calle>Avenida Central 456</calle>
+                  <ciudad>Ciudad ABC</ciudad>
+                  <codigo_postal>67890</codigo_postal>
+                  <provincia>Provincia XYZ</provincia>
+                </direccion>
+                <email>sara.gonzalez@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>010</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--11-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>011</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+          </pedidos> 
+        </trimestre1>
+
+        <!-- Trimestre 2 -->
+        <trimestre2 id="2">
+          <pedidos>
+            <!--12-->
+            <pedido>
+              <cliente>
+                <nombre>Juan</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>juan.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>012</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>lapices para pintar</nombre>
+                    <referencia>Chan-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--13-->
+            <pedido>
+              <cliente>
+                <nombre>Daniel</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>daniel.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>013</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--14-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>014</numero_pedido>
+                <fecha_compra>2021-01-27</fecha_compra>
+                <fecha_entrega>2021-01-30</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalones cortos</nombre>
+                    <referencia>Pan-02</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--15-->
+            <pedido>
+              <cliente>
+                <nombre>julia</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555-222-3333</telefono>
+                <direccion>
+                  <calle>Calle 654</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>97531</codigo_postal>
+                  <provincia>Provincia MNO</provincia>
+                </direccion>
+                <email>julia.martinez@email.com</email>
+                <fecha_inclusion>2020-12-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>015</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            
+            <!--16-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>016</numero_pedido>
+                <fecha_compra>2021-10-15</fecha_compra>
+                <fecha_entrega>2021-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--17-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>017</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--18-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>018</numero_pedido>
+                <fecha_compra>2021-01-11</fecha_compra>
+                <fecha_entrega>2021-01-15</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>lapices para pintar</nombre>
+                    <referencia>Chan-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Acuarelas</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--19-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>019</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--20-->
+            <pedido>
+              <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>González</apellidos>
+                <telefono>555-123-4567</telefono>
+                <direccion>
+                  <calle>Avenida Central 456</calle>
+                  <ciudad>Ciudad ABC</ciudad>
+                  <codigo_postal>67890</codigo_postal>
+                  <provincia>Provincia XYZ</provincia>
+                </direccion>
+                <email>sara.gonzalez@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>020</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--21-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>021</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+          </pedidos>
+        </trimestre2>
+
+        <!-- Trimestre 3 -->
+        <trimestre3 id="3">
+          <pedidos>
+            <!--22-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>022</numero_pedido>
+                <fecha_compra>2021-10-15</fecha_compra>
+                <fecha_entrega>2021-10-20</fecha_entrega>
+                <total_factura>165.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--23-->
+            <pedido>
+              <cliente>
+                <nombre>julia</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555-222-3333</telefono>
+                <direccion>
+                  <calle>Calle 654</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>97531</codigo_postal>
+                  <provincia>Provincia MNO</provincia>
+                </direccion>
+                <email>julia.martinez@email.com</email>
+                <fecha_inclusion>2020-12-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>023</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--24-->
+            <pedido>
+              <cliente>
+                <nombre>Juan</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>juan.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>024</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            
+            <!--25-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>025</numero_pedido>
+                <fecha_compra>2021-10-15</fecha_compra>
+                <fecha_entrega>2021-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--26-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>026</numero_pedido>
+                <fecha_compra>2021-10-15</fecha_compra>
+                <fecha_entrega>2021-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--27-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>027</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            
+            <!--28-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>028</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--29-->
+            <pedido>
+              <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>González</apellidos>
+                <telefono>555-123-4567</telefono>
+                <direccion>
+                  <calle>Avenida Central 456</calle>
+                  <ciudad>Ciudad ABC</ciudad>
+                  <codigo_postal>67890</codigo_postal>
+                  <provincia>Provincia XYZ</provincia>
+                </direccion>
+                <email>sara.gonzalez@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>029</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--30-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>030</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--31-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>031</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+          </pedidos>
+        </trimestre3>
+        <!-- Trimestre 4 -->
+        <trimestre4 id="4">
+          <pedidos>
+            <!--32-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>032</numero_pedido>
+                <fecha_compra>2021-10-15</fecha_compra>
+                <fecha_entrega>2021-10-20</fecha_entrega>
+                <total_factura>165.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--33-->
+            <pedido>
+              <cliente>
+                <nombre>julia</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555-222-3333</telefono>
+                <direccion>
+                  <calle>Calle 654</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>97531</codigo_postal>
+                  <provincia>Provincia MNO</provincia>
+                </direccion>
+                <email>julia.martinez@email.com</email>
+                <fecha_inclusion>2020-12-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>033</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--34-->
+            <pedido>
+              <cliente>
+                <nombre>Juan</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>juan.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>034</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            
+            <!--35-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>035</numero_pedido>
+                <fecha_compra>2021-10-15</fecha_compra>
+                <fecha_entrega>2021-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--36-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>036</numero_pedido>
+                <fecha_compra>2021-02-20</fecha_compra>
+                <fecha_entrega>2021-02-25</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Sudadera</nombre>
+                    <referencia>Sud-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--37-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>037</numero_pedido>
+                <fecha_compra>2021-10-15</fecha_compra>
+                <fecha_entrega>2021-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--38-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>038</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--39-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>039</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--40-->
+            <pedido>
+              <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>González</apellidos>
+                <telefono>555-123-4567</telefono>
+                <direccion>
+                  <calle>Avenida Central 456</calle>
+                  <ciudad>Ciudad ABC</ciudad>
+                  <codigo_postal>67890</codigo_postal>
+                  <provincia>Provincia XYZ</provincia>
+                </direccion>
+                <email>sara.gonzalez@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>041</numero_pedido>
+                <fecha_compra>2021-01-01</fecha_compra>
+                <fecha_entrega>2021-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--42-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>042</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+          </pedidos> 
+        </trimestre4>
+      </trimestres>
+    </ano2021>
+    <!-- ano 2022 -->
+    <ano2022 id="2022">
+      <trimestres>
+        <trimestre1 id="1">
+          <pedidos>
+            <!--1-->
+            <pedido>
+              <cliente>
+                <nombre>Juan</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>juan.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>001</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--2-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>002</numero_pedido>
+                <fecha_compra>2022-01-09</fecha_compra>
+                <fecha_entrega>2022-01-09</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>lapices para pintar</nombre>
+                    <referencia>Chan-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--3-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>003</numero_pedido>
+                <fecha_compra>2022-01-11</fecha_compra>
+                <fecha_entrega>2022-01-15</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>lapices para pintar</nombre>
+                    <referencia>Chan-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Acuarelas</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--4-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>004</numero_pedido>
+                <fecha_compra>2022-01-27</fecha_compra>
+                <fecha_entrega>2022-01-30</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Calcetines</nombre>
+                    <referencia>Cal-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>5</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--5-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>005</numero_pedido>
+                <fecha_compra>2022-01-27</fecha_compra>
+                <fecha_entrega>2022-01-30</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalones cortos</nombre>
+                    <referencia>Pan-02</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--6-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>006</numero_pedido>
+                <fecha_compra>2022-02-20</fecha_compra>
+                <fecha_entrega>2022-02-25</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Sudadera</nombre>
+                    <referencia>Sud-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--7-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>007</numero_pedido>
+                <fecha_compra>2022-10-15</fecha_compra>
+                <fecha_entrega>2022-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--8-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>008</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--9-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>009</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--10-->
+            <pedido>
+              <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>González</apellidos>
+                <telefono>555-123-4567</telefono>
+                <direccion>
+                  <calle>Avenida Central 456</calle>
+                  <ciudad>Ciudad ABC</ciudad>
+                  <codigo_postal>67890</codigo_postal>
+                  <provincia>Provincia XYZ</provincia>
+                </direccion>
+                <email>sara.gonzalez@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>010</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--11-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>011</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+          </pedidos> 
+        </trimestre1>
+
+        <!-- Trimestre 2 -->
+        <trimestre2 id="2">
+          <pedidos>
+            <!--12-->
+            <pedido>
+              <cliente>
+                <nombre>Juan</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>juan.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>012</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>lapices para pintar</nombre>
+                    <referencia>Chan-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--13-->
+            <pedido>
+              <cliente>
+                <nombre>Daniel</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>daniel.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>013</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--14-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>014</numero_pedido>
+                <fecha_compra>2022-01-27</fecha_compra>
+                <fecha_entrega>2022-01-30</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalones cortos</nombre>
+                    <referencia>Pan-02</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--15-->
+            <pedido>
+              <cliente>
+                <nombre>julia</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555-222-3333</telefono>
+                <direccion>
+                  <calle>Calle 654</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>97531</codigo_postal>
+                  <provincia>Provincia MNO</provincia>
+                </direccion>
+                <email>julia.martinez@email.com</email>
+                <fecha_inclusion>2020-12-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>015</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            
+            <!--16-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>016</numero_pedido>
+                <fecha_compra>2022-10-15</fecha_compra>
+                <fecha_entrega>2022-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--17-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>017</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--18-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>018</numero_pedido>
+                <fecha_compra>2022-01-11</fecha_compra>
+                <fecha_entrega>2022-01-15</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>lapices para pintar</nombre>
+                    <referencia>Chan-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Acuarelas</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--19-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>019</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--20-->
+            <pedido>
+              <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>González</apellidos>
+                <telefono>555-123-4567</telefono>
+                <direccion>
+                  <calle>Avenida Central 456</calle>
+                  <ciudad>Ciudad ABC</ciudad>
+                  <codigo_postal>67890</codigo_postal>
+                  <provincia>Provincia XYZ</provincia>
+                </direccion>
+                <email>sara.gonzalez@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>020</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--21-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>021</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+          </pedidos>
+        </trimestre2>
+
+        <!-- Trimestre 3 -->
+        <trimestre3 id="3">
+          <pedidos>
+            <!--22-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>022</numero_pedido>
+                <fecha_compra>2022-10-15</fecha_compra>
+                <fecha_entrega>2022-10-20</fecha_entrega>
+                <total_factura>165.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--23-->
+            <pedido>
+              <cliente>
+                <nombre>julia</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555-222-3333</telefono>
+                <direccion>
+                  <calle>Calle 654</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>97531</codigo_postal>
+                  <provincia>Provincia MNO</provincia>
+                </direccion>
+                <email>julia.martinez@email.com</email>
+                <fecha_inclusion>2020-12-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>023</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--24-->
+            <pedido>
+              <cliente>
+                <nombre>Juan</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>juan.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>024</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            
+            <!--25-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>025</numero_pedido>
+                <fecha_compra>2022-10-15</fecha_compra>
+                <fecha_entrega>2022-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--26-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>026</numero_pedido>
+                <fecha_compra>2022-10-15</fecha_compra>
+                <fecha_entrega>2022-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--27-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>027</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            
+            <!--28-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>028</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--29-->
+            <pedido>
+              <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>González</apellidos>
+                <telefono>555-123-4567</telefono>
+                <direccion>
+                  <calle>Avenida Central 456</calle>
+                  <ciudad>Ciudad ABC</ciudad>
+                  <codigo_postal>67890</codigo_postal>
+                  <provincia>Provincia XYZ</provincia>
+                </direccion>
+                <email>sara.gonzalez@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>029</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--30-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>030</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--31-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>031</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+          </pedidos>
+        </trimestre3>
+        <!-- Trimestre 4 -->
+        <trimestre4 id="4">
+          <pedidos>
+            <!--32-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 456</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>11345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>032</numero_pedido>
+                <fecha_compra>2022-10-15</fecha_compra>
+                <fecha_entrega>2022-10-20</fecha_entrega>
+                <total_factura>165.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--33-->
+            <pedido>
+              <cliente>
+                <nombre>julia</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>555-222-3333</telefono>
+                <direccion>
+                  <calle>Calle 654</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>97531</codigo_postal>
+                  <provincia>Provincia MNO</provincia>
+                </direccion>
+                <email>julia.martinez@email.com</email>
+                <fecha_inclusion>2020-12-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>033</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--34-->
+            <pedido>
+              <cliente>
+                <nombre>Juan</nombre>
+                <apellidos>Garcia</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 123</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>12345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>juan.garcia@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>034</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            
+            <!--35-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>035</numero_pedido>
+                <fecha_compra>2022-10-15</fecha_compra>
+                <fecha_entrega>2022-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--36-->
+            <pedido>
+              <cliente>
+                <nombre>Pedro</nombre>
+                <apellidos>sanchez</apellidos>
+                <telefono>555-555-5555</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>22345</codigo_postal>
+                  <provincia>Provincia ABC</provincia>
+                </direccion>
+                <email>pedro.sanchez@email.com</email>
+                <fecha_inclusion>2021-01-11</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>036</numero_pedido>
+                <fecha_compra>2022-02-20</fecha_compra>
+                <fecha_entrega>2022-02-25</fecha_entrega>
+                <total_factura>50.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Sudadera</nombre>
+                    <referencia>Sud-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--37-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>037</numero_pedido>
+                <fecha_compra>2022-10-15</fecha_compra>
+                <fecha_entrega>2022-10-20</fecha_entrega>
+                <total_factura>150.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Pantalón de senderismo</nombre>
+                    <referencia>Pan-01</referencia>
+                    <precio>60.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Botas de montaña</nombre>
+                    <referencia>Bot-01</referencia>
+                    <precio>45.00</precio>
+                    <unidades>1</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+
+            <!--38-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>038</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--39-->
+            <pedido>
+              <cliente>
+                <nombre>Carlos</nombre>
+                <apellidos>Ruiz</apellidos>
+                <telefono>555-987-6543</telefono>
+                <direccion>
+                  <calle>Calle 789</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>54321</codigo_postal>
+                  <provincia>Provincia DEF</provincia>
+                </direccion>
+                <email>carlos.ruiz@email.com</email>
+                <fecha_inclusion>2019-11-23</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>039</numero_pedido>
+                <fecha_compra>2022-01-20</fecha_compra>
+                <fecha_entrega>2022-01-25</fecha_entrega>
+                <total_factura>120.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Jersey de ljulia</nombre>
+                    <referencia>Jes-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>Bufanda de invierno</nombre>
+                    <referencia>Buf-01</referencia>
+                    <precio>20.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--40-->
+            <pedido>
+              <cliente>
+                <nombre>Sara</nombre>
+                <apellidos>González</apellidos>
+                <telefono>555-123-4567</telefono>
+                <direccion>
+                  <calle>Avenida Central 456</calle>
+                  <ciudad>Ciudad ABC</ciudad>
+                  <codigo_postal>67890</codigo_postal>
+                  <provincia>Provincia XYZ</provincia>
+                </direccion>
+                <email>sara.gonzalez@email.com</email>
+                <fecha_inclusion>2021-01-01</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>041</numero_pedido>
+                <fecha_compra>2022-01-01</fecha_compra>
+                <fecha_entrega>2022-01-05</fecha_entrega>
+                <total_factura>100.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Zapatillas deportivas</nombre>
+                    <referencia>Zap-01</referencia>
+                    <precio>50.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                  <producto>
+                    <nombre>cuaderno para pintar</nombre>
+                    <referencia>Cam-01</referencia>
+                    <precio>25.00</precio>
+                    <unidades>2</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+            <!--42-->
+            <pedido>
+              <cliente>
+                <nombre>lucia</nombre>
+                <apellidos>garcia</apellidos>
+                <telefono>555-333-4444</telefono>
+                <direccion>
+                  <calle>Calle 101</calle>
+                  <ciudad>Ciudad XYZ</ciudad>
+                  <codigo_postal>24680</codigo_postal>
+                  <provincia>Provincia GHI</provincia>
+                </direccion>
+                <email>lucia.garcia@email.com</email>
+                <fecha_inclusion>2021-02-14</fecha_inclusion>
+              </cliente>
+              <detalle>
+                <numero_pedido>042</numero_pedido>
+                <fecha_compra>2022-03-01</fecha_compra>
+                <fecha_entrega>2022-03-05</fecha_entrega>
+                <total_factura>75.00</total_factura>
+                <productos>
+                  <producto>
+                    <nombre>Camiseta de algodón</nombre>
+                    <referencia>Cam-02</referencia>
+                    <precio>25.00</precio>
+                    <unidades>3</unidades>
+                  </producto>
+                </productos>
+              </detalle>
+            </pedido>
+          </pedidos> 
+        </trimestre4>
+      </trimestres>
+    </ano2022>
+  </anos> 
+</tienda>
